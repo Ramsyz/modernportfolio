@@ -3,3 +3,8 @@
 @tailwind utilities;
 
 
+@layer components{
+  .wrapper{
+    @apply border-b-[1px] border-b-slate-500 py-20
+  }
+}

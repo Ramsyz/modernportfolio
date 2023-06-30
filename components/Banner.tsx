@@ -3,7 +3,7 @@ import ProfileImg from "../public/img/profileImg.jpg";
 
 const Banner = () => {
   return (
-    <div className="py-20 flex flex-col md:flex-row items-center gap-10 border-b-[1px] border-b-slate-500">
+    <div className="wrapper flex flex-col md:flex-row items-center gap-10">
       {/*Image */}
       <div className="w-44 h-44 rounded-full bg-black">
         <Image
@@ -14,7 +14,7 @@ const Banner = () => {
       </div>
       {/*Description */}
       <div className="w-3/4 flex flex-col text-center md:items-start gap-2">
-        <h1 className="text-5xl">Seetaram</h1>
+        <h1 className="text-3xl lg:text-5xl">Seetaram Vannemreddi</h1>
         <h3 className="text-2xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-blue-500 via-red-500 to-indigo-500 tracking-wide">
           Front-End Developer
         </h3>

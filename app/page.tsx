@@ -1,5 +1,7 @@
 import Aboutme from "@/components/Aboutme";
 import Banner from "@/components/Banner";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 
 export default function Home() {
   return (
@@ -7,6 +9,8 @@ export default function Home() {
       <div className="max-w-screen-xl mx-auto">
         <Banner />
         <Aboutme />
+        <Skills />
+        <Projects />
       </div>
     </main>
   );
