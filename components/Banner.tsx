@@ -3,7 +3,7 @@ import ProfileImg from "../public/img/profileImg.jpg";
 
 const Banner = () => {
   return (
-    <div className="py-20 flex flex-col md:flex-row items-center gap-10">
+    <div className="py-20 flex flex-col md:flex-row items-center gap-10 border-b-[1px] border-b-slate-500">
       {/*Image */}
       <div className="w-44 h-44 rounded-full bg-black">
         <Image

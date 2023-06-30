@@ -1,3 +1,4 @@
+import Aboutme from "@/components/Aboutme";
 import Banner from "@/components/Banner";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <main className="w-full bg-gray-100 text-black px-4">
       <div className="max-w-screen-xl mx-auto">
         <Banner />
+        <Aboutme />
       </div>
     </main>
   );
