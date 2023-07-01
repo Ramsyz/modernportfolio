@@ -19,9 +19,10 @@ const Banner = () => {
           Front-End Developer
         </h3>
         <p className="text-base tracking-wide text-center md:text-left">
-          I'm a front-end web developer specializing in building(and
-          occasionally designing) exceptional digital experiences. Currently,
-          I'm focused on building responsive front-end web applications while learning back-end technologies.
+          I'm a front-end web developer specializing in building and
+          occasionally designing exceptional digital experiences. Currently, I'm
+          focused on building responsive front-end web applications while
+          learning back-end technologies.
         </p>
       </div>
     </div>
