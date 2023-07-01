@@ -5,21 +5,19 @@ const Aboutme = () => {
   return (
     <div className="wrapper">
       <Title text="About Me" icon={<AiFillInfoCircle />} />
-      <div>
-        <p className="text-lg tracking-wide flex flex-col gap-6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quia
-          saepe fuga, voluptatibus illum harum modi vero ratione cum nihil at
-          obcaecati. Fuga odit nostrum ratione quis exercitationem placeat.
-          Iusto est iure natus et vitae dolor quae praesentium nobis
-          perspiciatis, ipsa explicabo voluptatibus eligendi reiciendis
-          delectus, repudiandae doloremque maxime ipsum.
+      <div className="flex flex-col gap-6">
+        <p className="text-lg tracking-wide ">
+          I have always had a knack for technology and working with computers. I
+          started working with HTML & CSS to make some minor edits on a website
+          that i was operating. What I thought was just a few small edits turned
+          into a curiosity.
         </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
-          expedita, maiores ipsum neque doloremque quidem sint tempore molestiae
-          consequuntur perspiciatis natus reiciendis rerum at nemo cupiditate,
-          numquam blanditiis? Quas velit illum asperiores cum dolorum, sint
-          officiis recusandae delectus suscipit labore!
+        <p className="text-lg tracking-wide">
+          Fascinated with how intricate programming can be I was quickly drawn
+          to learn more. I started learning javascript and was even more
+          enthused with making website interactive. I am now spending my time
+          building projects with React JS, MongoDB, and learning new
+          technologies.
         </p>
       </div>
     </div>
